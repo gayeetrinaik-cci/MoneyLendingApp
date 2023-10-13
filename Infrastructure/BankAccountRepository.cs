@@ -1,0 +1,17 @@
+﻿using Infrastructure.Entities;
+using Infrastructure.Interface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Infrastructure
+{
+    public class BankAccountRepository : Repository<Bankaccount>, IBankAccountRepository
+    {
+        public BankAccountRepository(ApplicationDBContext dBContext) : base(dBContext)
+        {
+        }
+    }
+}

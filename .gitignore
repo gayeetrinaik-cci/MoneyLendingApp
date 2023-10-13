@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Application/bin/Debug/net7.0
+/Application/obj
+/Infrastructure/bin/Debug/net7.0
+/Infrastructure/obj
+/MoneyLendingApp/bin/Debug/net7.0
+/MoneyLendingApp/obj
+/Shared/bin/Debug/net7.0
+/Shared/obj
